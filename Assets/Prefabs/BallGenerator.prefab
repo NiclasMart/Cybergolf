@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8843062799081101762
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8843062799081101820}
+  - component: {fileID: 8843062799081101763}
+  m_Layer: 0
+  m_Name: BallGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8843062799081101820
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8843062799081101762}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1019.2953, y: 704.687, z: -79.715614}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8843062799081101763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8843062799081101762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0dd38a9d2eb7d34eb883240f33774f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: {fileID: 11400000, guid: b83911944113fa74db33ea48220118da, type: 2}
+  bounce:
+  - {fileID: 13400000, guid: 086a127bab809bf47b55c9db8f2af32e, type: 2}
+  - {fileID: 13400000, guid: 8bbd729145eddc54ebcb31f5edd6733e, type: 2}
+  - {fileID: 13400000, guid: ad35209af9a94404297574547fe6bcd0, type: 2}
+  material:
+  - {fileID: 2100000, guid: 029b09ccecbf6cb4bb98c1fa3a4efb05, type: 2}
+  - {fileID: 2100000, guid: 08682140ef34bd745bb5afbe5339b532, type: 2}
+  - {fileID: 2100000, guid: 853bcd2fffad371458fd10c3ce62445c, type: 2}
+  abilitys:
+  - {fileID: 11400000, guid: bc8ebcdce2426cf4599898f248b5f3b8, type: 2}
+  - {fileID: 11400000, guid: f882d2b9e4dd8de47892e99a2a40d1ce, type: 2}
+  - {fileID: 11400000, guid: da522f653b7d73c43850f1bff602f3a9, type: 2}
+  - {fileID: 11400000, guid: f1bf209995d911d4fa76bc688d9580b5, type: 2}
+  UseTestValues: 1
+  tAbility: 2
+  tBounce: 1
+  tGravity: 1

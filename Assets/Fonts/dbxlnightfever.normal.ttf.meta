@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: da0b05cb223523b4ba8ed6ee100f5538
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - DBXLNightfever
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: b400713cf83fe1347b8ae11e96cb4e1b, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

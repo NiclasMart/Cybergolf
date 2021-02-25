@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: HackingBall_active
+  m_Shader: {fileID: -6465566751694194690, guid: 8e4a594867ea8b44c938569e47a12ee3,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_1EBC1A1B:
+        m_Texture: {fileID: 2800000, guid: bf8ed49fe5dd8b84f903d1451b49eaf6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_DF04A083:
+        m_Texture: {fileID: 2800000, guid: 89603b718b5b16647bb9571c4bdca375, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_17C8A82A: 0
+    - Vector1_48DF5853: 0.3
+    - Vector1_6D41CB85: 0.2
+    - Vector1_805CE596: 0.15
+    - Vector1_902172E1: 0.75
+    - Vector1_D7A741B1: 0.3
+    m_Colors:
+    - Color_3C3914BC: {r: 0.27410278, g: 5.235363, b: 0, a: 0}
+    - Color_C03EA93D: {r: 0, g: 3.921569, b: 4, a: 0}
+    - Vector2_549E5A76: {r: 2, g: 3, b: 0, a: 0}
+    - Vector2_C76170A8: {r: 0.15, g: 0.3, b: 0, a: 0}
+  m_BuildTextureStacks: []

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a7d92bbe851b084da6751a9927beb31, type: 3}
+  m_Name: BallBreakThrough
+  m_EditorClassIdentifier: 
+  abilityName: New Ability
+  triggerButton: 32
+  sprite: {fileID: 21300000, guid: 86320ee818220a04cac72ef0f539facc, type: 3}
+  symbolMaterial: {fileID: 2100000, guid: 9f1dd63af91e117408e070c1d0d983a0, type: 2}
+  startAmount: 3
+  abilityLayer: 8
+  activeMaterial: {fileID: 2100000, guid: 0531c1359969bf649a204e5d45b6346a, type: 2}
